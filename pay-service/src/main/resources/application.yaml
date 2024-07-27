@@ -1,0 +1,16 @@
+server:
+  port: 8086
+hm:
+  db:
+    database: hm-pay
+  swagger:
+    title: "黑马商城支付接口"
+    package: com.hmall.pay.controller
+spring:
+  rabbitmq:
+    host: 192.168.101.128
+    port: 5672 # 端口
+    virtual-host: /hmall # 虚拟主机
+    username: hmall # 用户名
+    password: 123 # 密码
+

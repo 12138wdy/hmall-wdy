@@ -1,0 +1,8 @@
+server:
+  port: 8089
+#hm:
+#  db:
+#    database: hm-item
+  swagger:
+    title: "黑马商城搜索接口"
+    package: com.hmall.search.controller
